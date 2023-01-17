@@ -1,0 +1,219 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(223, 222, 222);
+    overflow-y: hidden;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(120deg, rgb(3, 78, 68),rgb(47, 155, 197) );
+}
+
+.general {
+    text-align: center;
+}
+
+.conversor {
+    height: 73vh;
+    width: 100vh;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+}
+
+#logo {
+    text-align: left;
+    padding-top: 15pt;
+    padding-left: 30pt;
+}
+
+h2 {
+    height: 50pt;
+    padding-top: 40pt;
+    margin-top: 10pt;
+    border-top: 1px solid black;
+}
+
+#games{
+    height: 30pt;
+    padding: 30pt 100pt;
+    display: flex;
+    gap: 15pt;
+    font-size: 14pt;
+    text-align: center;
+}
+
+label {
+    text-align: center;
+}
+
+#sensRef {
+    height: 40pt;
+    font-size: 14pt;
+    display: flex;
+    text-align: center;
+    width: 400pt;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    justify-content: space-around;
+}
+
+#result {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 270pt;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14pt;
+}
+
+#btn {
+    height: 50pt;
+    margin-top: 5pt;
+    padding-bottom: 10pt;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 25pt;
+    width: 70pt;
+    border-radius: 5pt;
+    border: none;
+    background-color: rgb(13, 85, 69);
+    color: rgb(189, 188, 188);
+    box-shadow: 2px 2px 2px rgb(56, 54, 54);
+}
+
+button:hover {
+    background-color: rgb(16, 122, 78);
+    transition: all 80ms ease-in-out;
+}
+
+select {
+    border-radius: 3pt;
+    height: 20pt;
+    color: rgb(19, 19, 19);
+    cursor: pointer;
+    text-align: center;
+    background-color: rgb(196, 188, 188);
+}
+
+#sens {
+    border-radius: 3pt;
+    height: 20pt;
+    color: rgb(19, 19, 19);
+    text-align: center;
+    background-color: rgb(196, 188, 188);
+    width: 80pt;
+}
+option {
+    color: rgb(19, 19, 19);
+}
+
+footer{
+    border-top: 1px solid rgb(49, 48, 48);
+    height: 100pt;
+    text-align: center;
+    padding-top: 14pt;
+}
+
+#howto {
+    font-size: 14pt;
+    height: 200pt;
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    color: #7e7e7e;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#phrase {
+    border: solid 2px #36ac84;
+    padding: 4px 2px 4px 2px;
+    border-radius: 5pt;
+    width: 70vh;
+}
+
+
+@media (max-width: 1009px ) {
+    .conversor {
+        width: 65vh;
+    }
+
+    #games {
+        display: flex;
+        flex-direction: column;
+        height: 105pt;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #howto {
+        width: 65vh;
+    }
+
+    #phrase {
+        height: 80pt;
+        width: 350pt;
+    }
+
+@media (max-width: 602px) {
+    body{
+        font-size: 10pt;
+    }
+
+    .conversor {
+        width: 50vh;
+    }
+
+    #games {
+        height: 130pt;
+        font-size: 11pt;
+        padding-top: 0pt;
+    }
+
+    option {
+        font-size: 9pt;
+    }
+
+    #sensRef {
+        width: 200pt;
+        font-size: 11pt;
+    }
+
+    #howto{
+        font-size: 11pt;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50vh;
+        height: 150pt;
+    }
+
+    #phrase {
+        height: 80pt;
+        width: 250pt;
+    }
+    #conversor {
+        justify-content: center;
+        width: 40vh;
+    }
+
+    h2{
+        height: 30pt;
+        padding-top: 20pt;
+    }
+}
+}

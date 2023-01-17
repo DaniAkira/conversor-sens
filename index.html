@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Calculadora / Conversor de sensibilidade do mouse - GetsenS"
+        content="Conversor/Calculadora de sensibilidade do mouse entre jogos. Gratis e temos suporte para vários jogos.">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1f293d7788.js" crossorigin="anonymous"></script>
+    <title>Conversor de sensibilidade</title>
+</head>
+
+<body>
+    <div id="logo">
+        <h1>GetsenS.</h1>
+    </div class='general'>
+    <h2>Conversor/Calculadora de sensibilidade</h2>
+    <div class="conversor">
+        <div id="response">
+            <div id="games">
+                <label>Selecione o jogo de referência:</label>
+                <select name="gameFrom" id="gameFrom">
+                    <option>CS:GO</option>
+                    <option>Valorant</option>
+                    <option>Apex Legends</option>
+                    <option>Fortnite</option>
+                    <option>Overwatch 2</option>
+                    <option>Rainbow Six Siege</option>
+                    <option>Team Fortress 2</option>
+                </select>
+                <Label>Converter para:</Label>
+                <select name="gameTo" id="gameTo">
+                    <option>CS:GO</option>
+                    <option>Valorant</option>
+                    <option>Apex Legends</option>
+                    <option>Fortnite</option>
+                    <option>Overwatch 2</option>
+                    <option>Rainbow Six Siege </option>
+                    <option>Team Fortress 2</option>
+                </select>
+            </div>
+        </div>
+        <div id="sensRef">
+            Digite sua sensibilidade:<input type="number" name="sens" id="sens">
+        </div>
+        <div id="btn">
+            <button onclick="convert()">Converter</button>
+        </div>
+        <div id="result">
+            <p>Sua sensibilidade convertida é:</p>
+            <p id="sensFinal"></p>
+        </div>
+            <div id="howto">
+                <p id="phrase">Para fazer o uso do conversor/calculadora é fácil, basta selecionar os jogos desejados, preencher no espaço em branco a sua sensibilidade e clickar em converter.
+                Caso o resultado dê o mesmo valor inserido, então significa que os dois jogos têm a mesma sensibilidade.
+                </p>
+            </div>
+    </div>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2888158276673235"
+     crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    <footer>
+        <p>Contato : daakira@hotmail.com</p>
+    </footer>
+</body>
+
+
+</html>
